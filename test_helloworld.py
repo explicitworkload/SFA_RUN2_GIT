@@ -3,10 +3,14 @@
 from helloworld import *
 
 import pytest
-from sys import stderr
 
 class TestHelloworld:
-    # None
+    
+    # How should we fix this?
+    def test_helloworld(self):
+        assert helloworld() == "77" # question to class, why is this an error?
+        
+    # Returns nothing
     def test_none(self):
         assert helloworld() is None
 
