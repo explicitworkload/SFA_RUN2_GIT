@@ -2,6 +2,7 @@
 ### Let's use this repository for our git activity.
 
 ```
-Git Activity 1 - Team Activity. Clone, create branch, create codes, merge and push
-Git Activity 2 - Clone branch, modify codes and push branch.
+Team Activity 1 - Activity #1A Clone, Branch, Commit, Merge and Push.
+
+Team Activity 2 - Activity #1B Clone, Branch, Commit and Push branch.
 ```
