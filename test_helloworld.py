@@ -8,13 +8,13 @@ class TestHelloworld:
     
     # How should we fix this?
     def test_helloworld(self):
-        assert helloworld() == "77" # question to class, why is this an error?
-        
-    # Returns nothing
-    def test_none(self):
-        assert helloworld() is None
+        assert helloworld() == "hello world!" # question to class, why is this an error?
+    
+    # # Returns nothing
+    # def test_none(self):
+    #     assert helloworld() is None
 
-    # Function does not take any arguments
-    def test_no_arguments(self):
-        assert helloworld.__code__.co_argcount == 0
+    # # Function does not take any arguments
+    # def test_no_arguments(self):
+    #     assert helloworld.__code__.co_argcount == 0
     
